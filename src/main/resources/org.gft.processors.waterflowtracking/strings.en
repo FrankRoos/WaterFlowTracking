@@ -16,5 +16,5 @@ weekly_consumption.description=The value of weekly consumption
 monthly_consumption.title=Monthly Consumption
 monthly_consumption.description =  The value of monthly consumption
 
-choice.title=Total water flow ?
+choice.title= Is the input value the total water flow?
 choice.description=Compute total water flow (increasing value) instead of instant water flow?
