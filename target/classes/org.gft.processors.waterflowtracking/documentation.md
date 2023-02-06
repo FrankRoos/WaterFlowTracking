@@ -16,7 +16,7 @@
   ~
   -->
 
-## Example
+## Water Flow Tracking
 
 <p align="center"> 
     <img src="icon.png" width="150px;" class="pe-image-documentation"/>
@@ -25,12 +25,16 @@
 ***
 
 ## Description
-Describe your new data processor here!
+It Computes Daily, weekly and Monthly Water Consumption based on the given instant water flows and timestamps values.
 
 ***
 
-## Required input
-What are the input requirements of your data processor?
+## Required inputs
+#### Instant Water Flow
+Amount of water flowing (as past a valve) per unit of time (express in cubic meter per hour, cm/h) .
+
+#### Timestamp
+Time at which the water flow was gathered.
 
 ***
 
@@ -38,4 +42,4 @@ What are the input requirements of your data processor?
 What are the configurations a user has to provide?
 
 ## Output
-How do the events your data processor emits look like?
+The Power Tracking processor appends the calculated power as a double in Kilowatt-hour (Liter).
