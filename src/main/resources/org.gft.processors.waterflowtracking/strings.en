@@ -11,7 +11,7 @@ daily_consumption.title=Daily Consumption
 daily_consumption.description=The value of daily consumption
 
 weekly_consumption.title=Weekly Consumption
-weekly_consumption.description=The value of seven day consumption
+weekly_consumption.description=The value of weekly consumption
 
 monthly_consumption.title=Monthly Consumption
 monthly_consumption.description =  The value of monthly consumption
