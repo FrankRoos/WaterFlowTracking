@@ -28,7 +28,7 @@ import org.apache.streampipes.dataformat.smile.SmileDataFormatFactory;
 import org.apache.streampipes.messaging.jms.SpJmsProtocolFactory;
 import org.apache.streampipes.messaging.kafka.SpKafkaProtocolFactory;
 import org.apache.streampipes.messaging.mqtt.SpMqttProtocolFactory;
-import org.gft.processors.waterflowtracking.WaterFlowTracking;
+import org.gft.processors.waterflowtracking.WaterFlowTrackingDWM;
 
 public class Init extends ExtensionsModelSubmitter {
 
@@ -41,7 +41,7 @@ public class Init extends ExtensionsModelSubmitter {
     return SpServiceDefinitionBuilder.create("org.gft",
                     "human-readable service name",
                     "human-readable service description", 8090)
-            .registerPipelineElement(new WaterFlowTracking())
+            .registerPipelineElement(new WaterFlowTrackingDWM())
             .registerMessagingFormats(
                     new JsonDataFormatFactory(),
                     new CborDataFormatFactory(),
